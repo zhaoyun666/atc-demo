@@ -1,0 +1,53 @@
+<html>  
+<head>  
+<body>  
+<script type="text/javascript">  
+var sock = null;  
+var wsuri = "ws://127.0.0.1:9001/websokect/test/?id=1";
+window.onload = function(){
+console.log("onload");
+sock = new WebSocket(wsuri);  
+sock.onopen = function(){  
+console.log("connected to " + wsuri);  
+}  
+sock.onclose = function(e) {  
+console.log("connection closed (" + e.code + ")");  
+}  
+sock.onmessage = function(e){
+
+var obj = JSON.parse(e.data);
+console.log("message received:" + e.data);
+console.log("message received device:" + obj.result[0].device_hid);
+}
+
+};  
+  
+function send(){  
+console.log("send")  
+var msg = document.getElementById('message').value;
+//var msgJson = msg.parseJSON()
+//var msgJson = JSON.parse(msg)
+console.log(msg)
+sock.send(msg);
+};
+
+//写cookies
+function setCookie(name,value)
+{
+var Days = 30;
+var exp = new Date();
+exp.setTime(exp.getTime() + Days*24*60*60*1000);
+document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
+}
+</script>  
+<h1> Websocket Echo Test</h1>  
+<form>  
+<p>  
+Message:
+    <input style="width:600px" id = "message" type = "text" value ='{"version":"V1","method":"GET","handler":"users.login","body":""}'>
+</p>  
+</form>  
+<button onclick="send();">Send Msg</button>  
+</body>  
+</head>  
+</html>  

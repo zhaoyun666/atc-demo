@@ -1,0 +1,51 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;atc-demo&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../.idea" />
+      <root url="file://$PROJECT_DIR$/../../../liuxinming.com" />
+      <root url="file://$PROJECT_DIR$/../../../btblog" />
+      <root url="file://$PROJECT_DIR$/../../../hello" />
+      <root url="file://$PROJECT_DIR$/../../../public" />
+      <root url="file://$PROJECT_DIR$/../../../free" />
+      <root url="file://$PROJECT_DIR$/../../../test" />
+      <root url="file://$PROJECT_DIR$/../../../code.google.com" />
+      <root url="file://$PROJECT_DIR$/../../../example" />
+      <root url="file://$PROJECT_DIR$/../../../exercise" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../../linewin.cc" />
+      <root url="file://$PROJECT_DIR$/../../../labix.org" />
+      <root url="file://$PROJECT_DIR$/../../../git.apache.org" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../simplemath" />
+      <root url="file://$PROJECT_DIR$/../../../thrift" />
+      <root url="file://$PROJECT_DIR$/../../../websocket" />
+      <root url="file://$PROJECT_DIR$/../../../goyard" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../.idea" />
+      <root url="file://$PROJECT_DIR$/../../../liuxinming.com" />
+      <root url="file://$PROJECT_DIR$/../../../btblog" />
+      <root url="file://$PROJECT_DIR$/../../../hello" />
+      <root url="file://$PROJECT_DIR$/../../../public" />
+      <root url="file://$PROJECT_DIR$/../../../free" />
+      <root url="file://$PROJECT_DIR$/../../../test" />
+      <root url="file://$PROJECT_DIR$/../../../code.google.com" />
+      <root url="file://$PROJECT_DIR$/../../../example" />
+      <root url="file://$PROJECT_DIR$/../../../exercise" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../../linewin.cc" />
+      <root url="file://$PROJECT_DIR$/../../../labix.org" />
+      <root url="file://$PROJECT_DIR$/../../../git.apache.org" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../simplemath" />
+      <root url="file://$PROJECT_DIR$/../../../thrift" />
+      <root url="file://$PROJECT_DIR$/../../../websocket" />
+      <root url="file://$PROJECT_DIR$/../../../goyard" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
