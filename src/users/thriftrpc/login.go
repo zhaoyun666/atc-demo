@@ -13,7 +13,8 @@ type MicroHandler struct {
 func (this *MicroHandler) CallBack(callTime int64, name string, paramMap map[string]string) (r []string, err error) {
 	fmt.Println("-->from client Call:", time.Unix(callTime, 0).Format("2006-01-02 15:04:05"), name, paramMap)
 	r = append(r, "key:"+paramMap["a"]+"    value:"+paramMap["b"])
-	return
+	//r = []string{0: "code:200"}
+	return r, nil
 }
 
 func (this *MicroHandler) Put(s *micro.Article) (err error) {
